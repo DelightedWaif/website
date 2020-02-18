@@ -1,0 +1,126 @@
+.SectionItem {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #0F0F13;
+    position: relative;
+    margin-top: 20px;
+    padding-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+}
+
+.sectionDescription {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.image {
+    width: 392px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.image .mainImage {
+    width: 392px;
+}
+
+.title {
+    color: #D4E0ED;
+    font-family: "Source Code Pro Medium";
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: #3CBBB1;
+    font-family: Calibri;
+    font-size: 22px;
+    line-height: 22px;
+    margin-top: 0;
+}
+
+.description {
+    color: #D4E0ED;
+    font-family: Calibri;
+    font-size: 22px;
+    line-height: 26px;
+    white-space: normal;
+    margin-top: 0;
+    flex-grow: 1;
+    width: 600px;
+}
+
+.techList {
+    display: flex;
+    justify-content: center;
+}
+
+.techList img {
+    max-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.imageGroup {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 100px;
+}
+
+.subimage {
+    object-fit: contain;
+    width: 100px;
+}
+
+
+.icon {
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .techList {
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .techList img {
+        max-height: 100px;
+        width: 100px;
+        padding-top: 10px;
+    }
+    .itemHeading {
+        align-self: center;
+    }
+    .description {
+        width: 300px;
+        align-self: center;
+        padding-right: 5px;
+    }
+    .mainImage {
+        width: 300px !important;
+        align-self: center;
+    }
+
+    .SectionItem {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .sectionDescription {
+        padding-left: 0;
+    }
+}

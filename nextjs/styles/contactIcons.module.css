@@ -1,0 +1,33 @@
+.ContactIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 136px;
+    width: 500px;
+}
+
+.icon {
+    color: #3CBBB1;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.text {
+    color: #D4E0ED;
+    font-family: "Source Code Pro";
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.contactGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .ContactIcons {
+        flex-direction: column;
+        width: auto;
+    }
+}

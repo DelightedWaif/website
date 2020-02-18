@@ -1,0 +1,28 @@
+
+.NavBar {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 46px;
+    padding-right: 30px;
+}
+
+.NavBar p {
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: rgba(212,224,237,0.66);
+    font-family: Oswald;
+    text-decoration: none;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.NavBar :hover {
+    color: #FFF;
+}
+
+@media screen and (max-width: 500px) {
+    .NavBar {
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.9.0",
+    "react-scroll": "^1.7.16",
+    "react-window-size": "^1.2.2"
+  }
+}
