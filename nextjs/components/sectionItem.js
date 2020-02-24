@@ -28,7 +28,7 @@ const SectionItem = ({ description, image, title, subtitle, children, subimages,
                 </div>
             </div>
             {git != false &&
-                <a href={git}>
+                <a href={git} target="_blank">
                     <FaGithub className={styles.icon} />
                 </a>
             }

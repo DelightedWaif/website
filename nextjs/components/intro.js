@@ -7,7 +7,7 @@ const Intro = () => {
             Hi, I'm Tim and I like to <span>make things</span>
         </p>
         <p className={styles.subtitle} >
-            I'm a <span>Full Stack Developer</span> that enjoys writing elegant, effectient code.
+            I'm a <span>Full Stack Developer</span> that enjoys writing elegant, efficient code.
         </p>
         <p className={styles.subtitle} >
             Currently <span>available for hire.</span>

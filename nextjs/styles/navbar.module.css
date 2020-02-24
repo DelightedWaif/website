@@ -21,8 +21,3 @@
     color: #FFF;
 }
 
-@media screen and (max-width: 500px) {
-    .NavBar {
-        visibility: hidden;
-    }
-}
